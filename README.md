@@ -1,6 +1,5 @@
 # Whitecakes
-Team Name: KidAcademy
-
+Team Name: Akademia
 
 Members:
 
