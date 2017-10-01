@@ -9,7 +9,7 @@ Miller, Benjamin
 
 Rodenbaugh, Allison
 
-Lillich Tanner
+Lillich, Tanner
         
         
 Description:
@@ -23,11 +23,11 @@ Vision Statement:
 
 Veni, Vidi, Didici.
 
-To protect students from agitation
+To protect students from agitation,
 
-To provide students with information
+To provide students with information,
 
-To denounce the boredoms of class and lect. 
+To denounce the boredoms of class and lectures,
 
 To extend knowledge to the world with facts.
 
@@ -62,3 +62,7 @@ We will be using Agile/Scrum as our project requires us to be as flexible as pos
 Collaboration Tool: 
 
 Currently, we are using text messaging and Github for communication. 
+
+Proposed Architecture:
+
+We plan on using a MySQL database on the backend of the project to store data to be displayed to the user. We plan on using simple web-development technologies such as Atom and Subversion on the front end. The database and web component will communicate via a server such as apache Tomcat. The database will hold information for the academic lessons and quizzes, and the webpage will be the main way the user interacts with the app to learn the content and take the quizzes.
