@@ -8,7 +8,18 @@ Project Dashboard:
 
 Project Plan:
 
+Completing the basic requirements of our project should take three two-week sprints.
 
+  Sprint 1: Change content on main page and content page to be relevant to the product.
+            Create a database to store the math page tutorial activity content (Table 1) and quiz answers (Table 2).
+            Connect database to site using a server and php.
+  Sprint 2: Add tutorial content to the math page.
+            Add quiz content and get database to connect to user inputs on the site.
+            Create an "about page" that links from the main page to talk about the product.
+  Sprint 3: Use CSS to make site more appealing after functionality is done.
+            Possibly add more content pages (ex: Science/Reading) after math page is finished.
+            Perform unit testing on functionality of math page.
+            
 
 
 Meetings Summary:
