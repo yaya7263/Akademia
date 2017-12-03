@@ -1,14 +1,16 @@
-Who: 
+### Who
 Yang Yang.
 Tanner Lillich.
 Allison Rodenbaugh.
 Ben Miller
 
 
-Title: Akademia
+### Title
+
+Akademia
 
 
-Vision:
+### Vision
 
 Veni, Vidi, Didici.
 
@@ -21,9 +23,10 @@ To denounce the boredoms of class and lectures,
 To extend knowledge to the world with facts.
 
 
-Automated Tests:
+### Automated Tests
 
-User Acceptance Tests:
+
+### User Acceptance Tests
 
 3 features will be tested by UATs.
 
