@@ -1,18 +1,25 @@
 Who: 
-Yang Yang
-Tanner Lillich
-Allison Rodenbaugh
+Yang Yang.
+Tanner Lillich.
+Allison Rodenbaugh.
 Ben Miller
 
+
 Title: Akademia
+
 
 Vision:
 
 Veni, Vidi, Didici.
+
 To protect students from agitation,
+
 To provide students with information,
+
 To denounce the boredoms of class and lectures,
+
 To extend knowledge to the world with facts.
+
 
 Automated Tests:
 
