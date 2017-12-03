@@ -48,6 +48,25 @@ For our initial demonstration to Selenium( so that it records our actions), we u
 ![alt tag](https://i.imgur.com/o6XUGlJ.jpg)
 
 
+#### Variables: Yang, 2 (Intended Result) 
+![alt tag](https://i.imgur.com/toLMPfk.jpg)
+
+
+#### Variables: Allison, 23 (Intended Result) 
+![alt tag](https://i.imgur.com/FJlVdUH.jpg)
+
+
+#### Variables: Ben, 4 (Intended Result) 
+![alt tag](https://i.imgur.com/nS4B4Xf.jpg)
+
+
+#### Variables: Tanner, 2(Intended Result) 
+![alt tag](https://i.imgur.com/6J94Pr7.jpg)
+
+
+#### Data Tables created (Intended Result) 
+![alt tag](https://i.imgur.com/7jdprAF.png)
+
 
 
 ### User Acceptance Tests
