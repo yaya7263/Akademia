@@ -25,20 +25,26 @@ User Acceptance Tests:
 Test Login
 
 **Pre-conditions**
+
 User is on website
 **Test Steps**
 
 Click on upper right box
+
 Input username on where it says "input username here"
+
 Click Login Button
 
 **Expected Result**
+
 User creates a login with a table listed as the username in MySQL
 
 **Actual Result**
+
 Page refreshes after User logins with a table created in MySQL. Intended result
 
 **Status(Pass/Fail)**
+
 Pass
 
 
