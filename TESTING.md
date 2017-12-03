@@ -20,7 +20,8 @@ User Acceptance Tests:
 
 3 features will be tested by UATs.
 
-###UAT1: 
+### UAT 1: Verify login with valid user name and password 
+**Description**
 
 2. Testing Mathmatics. Beta user clicks on Mathmatics section of website. Beta user reads the guide on how to do the problems of the Mathmatics section and note if satisfactory. User inputs answers to the questions asked and note if satisfactory.  User can click on 
 username( created from login) to check his/her answers and the correctness of answers.
