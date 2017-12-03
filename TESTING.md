@@ -27,6 +27,7 @@ Test Login
 **Pre-conditions**
 
 User is on website
+
 **Test Steps**
 
 Click on upper right box
@@ -47,10 +48,58 @@ Page refreshes after User logins with a table created in MySQL. Intended result
 
 Pass
 
+### UAT 2: Verify Mathmatics page
+**Description**
+Testing our Mathmatics page
 
-2. Testing Mathmatics. Beta user clicks on Mathmatics section of website. Beta user reads the guide on how to do the problems of the Mathmatics section and note if satisfactory. User inputs answers to the questions asked and note if satisfactory.  User can click on 
-username( created from login) to check his/her answers and the correctness of answers.
-3. Testing Literature. Beta user clicks on Literature section of website. Beta user reads the article provided in order to answer questions regarding the reading. User inputs answers to the questions asked and note if satisfactory in terms of difficulty and usability.  User can click on username (created from login) to check his/her answers.
+**Pre-conditions**
+
+User is on website
+
+**Test Steps**
+
+Click on Topics, Select Mathmatics
+
+Select Topic Interested In ( Fractions/Addition/Calc etc) 
+
+**Expected Result**
+
+Shows a mathmatics page with the topic selected
+
+**Actual Result**
+
+correct Mathmatics Page is shown
+
+**Status(Pass/Fail)**
+
+Pass
+
+### UAT 3: Verify Literature Page page
+**Description**
+Testing our Literature page
+
+**Pre-conditions**
+
+User is on website
+
+**Test Steps**
+
+Click on Topics, Select Literature
+
+Select Topic Interested In ( Which article to read/discuss ) 
+
+**Expected Result**
+
+Shows the Literature page with the topic selected
+
+**Actual Result**
+
+correct Literature Page is shown
+
+**Status(Pass/Fail)**
+
+Pass
+
 
 
 
