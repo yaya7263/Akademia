@@ -25,6 +25,30 @@ To extend knowledge to the world with facts.
 
 ### Automated Tests
 
+Used Selenium for Automated Web Testing:
+
+http://www.seleniumhq.org/
+
+Tests are ran through Selenium with the following:
+
+
+User inputs username and clicks login (changing variable: abc) 
+
+User then clicks on on Topics-> Mathmatics 
+
+User clicks on Fractions
+
+User is taken to Fractions Topic page
+
+User inputs a number and presses submit(changing variable: 3) 
+
+For our initial demonstration to Selenium( so that it records our actions), we used test cases (abc, 4) which created table abc and submitted 4, which showed us it is the wrong answer with the "you died" image. With our actions recorded, we rerun our actions through Selenium with changing variables with (Yang, 2), (Allison, 23), (Ben, 4), and (Tanner, 2).
+
+#### Initial Case(Intended Result) 
+![alt tag](https://i.imgur.com/o6XUGlJ.jpg)
+
+
+
 
 ### User Acceptance Tests
 
