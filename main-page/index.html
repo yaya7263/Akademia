@@ -43,11 +43,34 @@
 						<ul class="dropdown-menu" aria-labelledby="about-us">
 							<li><a href="math-page.html">Mathematics</a></li>
 							<li><a href="#">Science</a></li>
-							<li><a href="#">Reading</a></li>
-              <li><a href="fractions.html">MathematicsFractions</a></li>
+							<li><a href="lit-page.html">Reading</a></li>
 						</ul>
 					</li>
+
                 </ul>
+				<form enctype="multipart/form-data"
+				action=	"http://localhost/main-page/username.php">
+				<form enctype="multipart/form-data"
+				action=	"http://localhost/main-page/index.html">
+				<ul style="text-align: right">
+					<br/>
+					<li>
+					<input type="text" name="username" placeholder="Pick a Name" size="20"  />
+					<input type="submit" value="Login"/>
+					</li>
+				</ul>
+				</form>
+				</form>
+				<?php 
+					$username = $_REQUEST['username'];
+					if ($username) {
+						 echo "Error creating table: "
+					}
+					else{
+					
+						echo "not working"
+					}
+				?>
 
             </div>
             <!-- /.navbar-collapse -->
