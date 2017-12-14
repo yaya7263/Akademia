@@ -79,7 +79,7 @@
 								<ul class="nav navbar-nav" style="text-align: right">
 					
 										<li style="font-size: 17px">
-					<a href="http://localhost/main-page/simple/answers2.php"> Prior Answers </a>
+					<a href="http://localhost/main-page/answers.php"> Prior Answers </a>
 										</li>
 				</ul>
 						</div>
@@ -108,67 +108,39 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5">
-						<h1> Play the game or scroll down to read about fractions!</h1>
-						<h2>(Simplify Your Answers)</h2>
+
+						<?php
+// Obtain a connection object by connecting to the db
+//global $username;
+
+
+echo "<h1>My Answers</h1>";
+
+$connection = @mysqli_connect (localhost,  Shinobi, Shinobi, akademia);
+
+if (mysqli_connect_errno())
+{
+echo "<h4>Failed to connect to MySQL:
+</h4>".mysqli_connect_error();
+}
+else
+{
+echo "<h2>Question:Answer </h2>";
+}
+$query= "Select * from yang";
+$resultset = mysqli_query($connection,$query);
+while ($row = mysqli_fetch_array($resultset, MYSQLI_NUM)) {
+echo " Question: "."\n".$row[1]." My Answer: ".$row[2]." "."<br>";
+
+}
+
+?>
+
 <p><form action="services.php" method="post">
 
 <table border="5">
 
-<tr>
-	<td>3/4 + 5/4</td>
-	<td align="center"><input type="text" name="answer1" size="10" /></td>
 
-
-</tr>
-
-<tr>
-	<td>5/8 + 9/10</td>
-	<td align="center"><input type="text" name="answer2" size="10" /></td>
-</tr>
-
-<tr>
-	<td>9/4 - 2/3</td>
-	<td align="center"><input type="text" name="answer3" size="10"  /></td>
-</tr>
-
-<tr>
-	<td>2/3 + 5/8</td>
-	<td align="center"><input type="text" name="answer4" size="10"  /></td>
-</tr>
-
-<tr>
-	<td>54/53 - 5/53</td>
-	<td align="center"><input type="text" name="answer5" size="10"  /></td>
-</tr>
-
-<tr>
-	<td>12/3 + 16/2</td>
-	<td align="center"><input type="text" name="answer6" size="10"  /></td>
-</tr>
-
-
-<tr>
-	<td>12/5 + 16/3</td>
-	<td align="center"><input type="text" name="answer7" size="10"  /></td>
-</tr>
-
-<tr>
-	<td>8/3 + 9/2</td>
-	<td align="center"><input type="text" name="answer8" size="10"  /></td>
-</tr>
-
-<tr>
-	<td>12/3 - 16/2</td>
-	<td align="center"><input type="text" name="answer9" size="10"  /></td>
-</tr>
-
-<tr>
-	<td>8/3 - 2/2</td>
-	<td align="center"><input type="text" name="answer10" size="10"  /></td>
-</tr>
-<tr>
-<td colspan="2" align="center"><input type="submit" value="Submit"/></td>
-</tr>
 
 
 </table></p>
@@ -179,8 +151,8 @@
 						</ul>
 					</div>
 					<div class="col-md-7">
-						<img src="images/archer.gif" alt="Free HTML5 by FreeHTML5.co" class="img-responsive">
-						<h1> Answer Questions Correctly to proceed through your adventure! </h1>
+						<img src="images/hangman.png" alt="Free HTML5 by FreeHTML5.co" class="img-responsive">
+						<h1> How did you do?</h1>
 					</div>
 				</div>
 			</div>
