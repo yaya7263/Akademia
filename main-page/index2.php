@@ -1,3 +1,26 @@
+<?php
+global $username;
+$username = $_REQUEST['username'];
+
+$connection = new mysqli("localhost","Shinobi","Shinobi","akademia");
+
+if ($connection->connect_error){
+	echo "fail";
+}	
+else {
+}
+$sql = "CREATE TABLE $username (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+question VARCHAR(30) NOT NULL,
+answer VARCHAR(30) NOT NULL,
+reg_date TIMESTAMP
+)";
+if ($connection->query($sql) === TRUE) {
+} else {
+    echo "Error creating table: " . $connection->error;
+}
+?>
+
 <!DOCTYPE html>
 <!-- Template by Quackit.com -->
 <html lang="en">
@@ -16,6 +39,7 @@
 
 <body>
 
+	<input type='hidden' name='user' value='<?php echo "$username";?>'/> 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -48,28 +72,16 @@
 					</li>
 
                 </ul>
-
-				<form enctype="multipart/form-data"
+								<form enctype="multipart/form-data"
 				action=	"http://localhost/main-page/index2.php">
 				<ul style="text-align: right">
 					<br/>
 					<li>
-					<input type="text" name="username" placeholder="Pick a Name" size="20"  />
-					<input type="submit" value="Login"/>
+					Click on YOUR username for your prior answers
+					<a href="answers.php"> <?php echo "$username"; ?> </a>
 					</li>
 				</ul>
 				</form>
-				</form>
-				<?php
-					$username = $_REQUEST['username'];
-					if ($username) {
-						 echo "Error creating table: "
-					}
-					else{
-
-						echo "not working"
-					}
-				?>
 
             </div>
             <!-- /.navbar-collapse -->

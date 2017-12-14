@@ -20,6 +20,6 @@ if ($connection->query($sql) === TRUE) {
     echo "Error creating table: " . $connection->error;
 }
 
-header("Location: http://localhost/main-page/index.html");
+header("Location: http://localhost/main-page/index2.html");
 
 ?>

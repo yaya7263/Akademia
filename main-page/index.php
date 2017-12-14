@@ -1,3 +1,30 @@
+<?php
+
+$username = $_REQUEST['username'];
+
+$connection = new mysqli("localhost","Shinobi","Shinobi","akademia");
+
+if ($connection->connect_error){
+	echo "fail";
+}	
+else {
+}
+$sql = "CREATE TABLE $username (
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
+question VARCHAR(30) NOT NULL,
+answer VARCHAR(30) NOT NULL,
+reg_date TIMESTAMP
+)";
+if ($connection->query($sql) === TRUE) {
+} else {
+    echo "Error creating table: " . $connection->error;
+}
+
+header("Location: http://localhost/main-page/index.html");
+
+?>
+
+
 <!DOCTYPE html>
 <!-- Template by Quackit.com -->
 <html lang="en">
@@ -36,21 +63,22 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="#">About</a>
                     </li>
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics <span class="caret"></span></a>
 						<ul class="dropdown-menu" aria-labelledby="about-us">
 							<li><a href="math-page.html">Mathematics</a></li>
-							<li><a href="#">Science [Coming Soon]</a></li>
-							<li><a href="lit-page.html">Literature</a></li>
+							<li><a href="#">Science</a></li>
+							<li><a href="lit-page.html">Reading</a></li>
 						</ul>
 					</li>
 
                 </ul>
-
 				<form enctype="multipart/form-data"
-				action=	"http://localhost/main-page/index2.php">
+				action=	"http://localhost/main-page/username.php">
+				<form enctype="multipart/form-data"
+				action=	"http://localhost/main-page/index.html">
 				<ul style="text-align: right">
 					<br/>
 					<li>
@@ -60,13 +88,13 @@
 				</ul>
 				</form>
 				</form>
-				<?php
+				<?php 
 					$username = $_REQUEST['username'];
 					if ($username) {
 						 echo "Error creating table: "
 					}
 					else{
-
+					
 						echo "not working"
 					}
 				?>
@@ -141,11 +169,11 @@
                 <p> Explore mathematics through lessons and activities on topics such as Trigonometry, Calculus, and Geomoetry. Learn about effective techniques that will help you grasp ideas and concepts presented in the lessons.</p>
               </article>
             <article class="col-md-4 article-intro">
-                <a href="lit-page.html">
+                <a href="#">
                     <img class="img-responsive img-rounded" src="https://www.wired.com/images_blogs/wiredscience/2014/01/books.jpg"style=" width: 500px; height: 200px;" alt="">
                 </a>
                 <h3>
-                    <a href="lit-page.html">Explore Literature</a>
+                    <a href="#">Explore Reading</a>
                 </h3>
                 <p> Explore the best practices of identifying main ideas, plots, and author choices through our interactive reading activities.</p>
             </article>
@@ -157,7 +185,6 @@
                 <h3>
                     <a href="#">Explore Science</a>
                 </h3>
-                <h4>[Coming Soon]</h4>
                 <p>Explore scientific ideas and concepts through learning activities and lessons. Learn the basics of chemistry and biology by interactively engaging in games and quizzes.</p>
               </article>
         </div>
@@ -215,4 +242,3 @@
 </body>
 
 </html>
-
