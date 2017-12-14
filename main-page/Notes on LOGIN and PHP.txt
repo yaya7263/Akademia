@@ -4,4 +4,4 @@ In order to Login correctly and for the login to create a table
 need a user named Shinobi with pw Shinobi 
 
 
-Also needs to create a database named Akademia in order for the tables to be stored. 
+Create a database named Akademia in order for the tables to be stored. 
