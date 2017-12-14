@@ -105,7 +105,7 @@ if ($connection->query($sql) === TRUE) {
 				</div>
 				<div class="item">
 					<h1>Proactively Educate</h1>
-					<p>Teach students the techniques needed to grasp concepts and ideas..</p>
+					<p>Teach students the techniques needed to grasp concepts and ideas.</p>
 				</div>
 				<div class="item">
 					<h1>Creatively Inspire</h1>
@@ -170,7 +170,7 @@ if ($connection->query($sql) === TRUE) {
                     <a href="#">Explore Science</a>
                 </h3>
                 <h4>[Coming Soon]</h4>
-                <p>Explore scientific ideas and concepts through learning activities and lessons. Learn the basics of chemistry and biology by interactively engaging in games and quizzes.</p>
+                <p>Explore scientific ideas and concepts through learning activities and lessons. Learn the basics of Chemistry and Biology by interactively engaging in games and quizzes.</p>
               </article>
         </div>
         <!-- /.row -->
@@ -185,7 +185,7 @@ if ($connection->query($sql) === TRUE) {
   				<div class="row">
   					<div class="col-sm-4 footer-blurb-item">
   						<h3><span class="glyphicon glyphicon-fire"></span> Productively Practice</h3>
-              <p> At Akademia, we pride ourselves in providing students with an environment where they can practice learning techniques productivelly to master concepts in less time.</p>
+              <p> At Akademia, we pride ourselves in providing students with an environment where they can practice learning techniques productively to master concepts in less time.</p>
             </div>
   					<div class="col-sm-4 footer-blurb-item">
   						<h3><span class="glyphicon glyphicon-cloud-upload"></span> Creatively Think</h3>
