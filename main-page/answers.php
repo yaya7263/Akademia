@@ -1,4 +1,5 @@
 <?php
+//answers.php
 // Obtain a connection object by connecting to the db
 //global $username;
 $username= $_GET['username'];
