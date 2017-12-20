@@ -1,4 +1,4 @@
-<?php
+<?php header( 'Location: /index.html' ) ;
 
 $username = $_REQUEST['username'];
 
@@ -20,7 +20,7 @@ if ($connection->query($sql) === TRUE) {
     echo "Error creating table: " . $connection->error;
 }
 
-header("Location: http://localhost/main-page/index.html");
+header("Location: index.html");
 
 ?>
 
@@ -91,11 +91,11 @@ header("Location: http://localhost/main-page/index.html");
 				<?php 
 					$username = $_REQUEST['username'];
 					if ($username) {
-						 echo "Error creating table: "
+						 echo "Error creating table: ";
 					}
 					else{
 					
-						echo "not working"
+						echo "not working";
 					}
 				?>
 

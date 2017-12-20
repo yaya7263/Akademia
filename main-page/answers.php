@@ -1,5 +1,4 @@
 <?php
-//answers.php
 // Obtain a connection object by connecting to the db
 //global $username;
 $username= $_GET['username'];
@@ -13,7 +12,7 @@ else
 }
 echo $username."<h1>My Answers</h1>";
 
-$connection = @mysqli_connect (localhost,  Shinobi, Shinobi, akademia);
+$connection = @mysqli_connect ("us-cdbr-iron-east-05.cleardb.net","bd3fcecabf9772","5d8459590dc1396","heroku_7aac2bb813d6144");
 
 if (mysqli_connect_errno())
 {
