@@ -119,20 +119,17 @@
 </p>
 <p>In other words, you might say that I still have no understanding of what makes human beings tick. My apprehension on discovering that my concept of happiness seemed to be completely at variance with that of everyone else was so great as to make me toss sleeplessly and groan night after night in my bed. It drove me indeed to the brink of lunacy. I wonder if I have actually been happy. People have told me, really more times than I can remember, ever since I was a small boy, how lucky I was, but I have always felt as if I were suffering in hell. It has seemed to me in fact that those who called me lucky were incomparably more fortunate than I.
 		</p>
-		
-		
-		
-					</div>
+			</div>
 					<div class="col-md-6 col-md-push-1">
-						<form action="contact.php">
+						<form action="#">
 							<div class="form-group">
-								<textarea type="text" class="form-control" placeholder="Name of the Novel?"></textarea>
+								<textarea type="text" class="form-control" placeholder="Your answer has been submitted for grading"></textarea>
 							</div>
 							<div class="form-group">
-								<textarea type="text" class="form-control" placeholder="Name of the Author?"></textarea>
+								<textarea type="text" class="form-control" placeholder="Your answer has been submitted for grading"></textarea>
 							</div>
 							<div class="form-group">
-								<textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="How does the Author describe the protagonist's childhood? Can you give a reason for the Author for describing it this way?"></textarea>
+								<textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Your answer has been submitted for grading"></textarea>
 							</div>
 							<div class="form-group">
 								<input type="submit" value="Submit Answer" class="btn btn-primary btn-md">
@@ -142,7 +139,6 @@
 				</div>
 			</div>
 		</div>
-
 
 	</div> <!-- END fh5co-wrap -->
 

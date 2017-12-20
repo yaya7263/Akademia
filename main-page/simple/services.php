@@ -74,7 +74,7 @@
 						<li class="fh5co-active"><a href="services.html"><span>Math</span></a></li>
 						<li><a href="about.html"><span>Science</span></a></li>
 						<li><a href="contact.html"><span>Literature</span></a></li>
-						<li> 			<a href="http://localhost/main-page/simple/answers2.php"> Prior Answers </a> </li>
+						<li> 			<a href="answers2.php"> Prior Answers </a> </li>
 					</ul>
 				</nav>
 			</div>
@@ -126,7 +126,7 @@
 	
 	<?php
 	$answer2 = $_POST['answer2'];
-	if ($answer2 != 2)
+	if ($answer2 != "61/40")
 		echo $answer2 . ' is wrong </br>';
 	else
 		echo $answer2 . ' is correct </br>';
@@ -140,7 +140,7 @@
 	
 	<?php
 	$answer3 = $_POST['answer3'];
-	if ($answer3 != 2)
+	if ($answer3 != "35/12")
 		echo $answer3 . ' is wrong </br>';
 	else
 		echo $answer3 . ' is correct </br>';
@@ -154,7 +154,7 @@
 	
 	<?php
 	$answer4 = $_POST['answer4'];
-	if ($answer4 != 2)
+	if ($answer4 != "31/24")
 		echo $answer4 . ' is wrong </br>';
 	else
 		echo $answer4 . ' is correct </br>';
@@ -168,7 +168,7 @@
 	
 	<?php
 	$answer5 = $_POST['answer5'];
-	if ($answer5 != 2)
+	if ($answer5 != "49/53")
 		echo $answer5 . ' is wrong </br>';
 	else
 		echo $answer5 . ' is correct </br>';
@@ -182,7 +182,7 @@
 	
 	<?php
 	$answer6 = $_POST['answer6'];
-	if ($answer6 != 2)
+	if ($answer6 != 12)
 		echo $answer6 . ' is wrong </br>';
 	else
 		echo $answer6 . ' is correct </br>';
@@ -197,7 +197,7 @@
 	
 	<?php
 	$answer7 = $_POST['answer7'];
-	if ($answer7 != 2)
+	if ($answer7 != "116/15")
 		echo $answer7 . ' is wrong </br>';
 	else
 		echo $answer7 . ' is correct </br>';
@@ -210,7 +210,7 @@
 	<td align="center">
 	<?php
 	$answer8 = $_POST['answer8'];
-	if ($answer7 != 2)
+	if ($answer7 != "57/8")
 		echo $answer8 . ' is wrong </br>';
 	else
 		echo $answer8 . ' is correct </br>';
@@ -223,7 +223,7 @@
 	<td align="center">
 		<?php
 	$answer9 = $_POST['answer9'];
-	if ($answer9 != 2)
+	if ($answer9 != -4)
 		echo $answer9 . ' is wrong </br>';
 	else
 		echo $answer9 . ' is correct </br>';
@@ -236,7 +236,7 @@
 	<td align="center">
 		<?php
 	$answer10 = $_POST['answer10'];
-	if ($answer10 != 2)
+	if ($answer10 != "5/3")
 		echo $answer10 . ' is wrong </br>';
 	else
 		echo $answer10 . ' is correct </br>';
@@ -248,7 +248,7 @@
 </tr>
 
 <?php
-$connection = mysqli_connect("localhost",  "Shinobi", "Shinobi", "akademia");
+$connection = @mysqli_connect ("us-cdbr-iron-east-05.cleardb.net","bd3fcecabf9772","5d8459590dc1396","heroku_7aac2bb813d6144");
 $deleteq = "DELETE from yang"; 
 $resultsetdelete = mysqli_query($connection,$deleteq)  or die(mysql_error())    ;
 $query1 = "insert into yang (id, question, answer, reg_date) values (1,'3/4 + 5/4','$answer1',0)";

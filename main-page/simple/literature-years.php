@@ -130,15 +130,15 @@ Slouches towards Bethlehem to be born?</p>
 
 			</div>
 					<div class="col-md-6 col-md-push-1">
-						<form action="literature-years.php">
+						<form action="#">
 							<div class="form-group">
-								<textarea type="text" class="form-control" placeholder="How many stanzas does this poem have?"></textarea>
+								<textarea type="text" class="form-control" placeholder="Your answer has been submitted for grading"></textarea>
 							</div>
 							<div class="form-group">
-								<textarea type="text" class="form-control" placeholder="What is the form of this poem? (Lyric, Narrative, or Descriptive)"></textarea>
+								<textarea type="text" class="form-control" placeholder="Your answer has been submitted for grading"></textarea>
 							</div>
 							<div class="form-group">
-								<textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Based on context clues in the poem, what do you think Yeats means by 'The Second Coming'"></textarea>
+								<textarea class="form-control" name="" id="" cols="30" rows="10" placeholder="Your answer has been submitted for grading"></textarea>
 							</div>
 							<div class="form-group">
 								<input type="submit" value="Submit Answer" class="btn btn-primary btn-md">
